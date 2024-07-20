@@ -1,1 +1,1 @@
-# flask-full-stack-app
+# Project pulsar
