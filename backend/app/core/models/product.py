@@ -1,5 +1,8 @@
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 
 
 class Product(BaseModel):
-    pass
+    name: str = Field(..., alias="name")
+    description: str = Field(..., alias="description")
+    price: float = Field(..., alias="price")
+    duration: float = Field(..., alias="duration")

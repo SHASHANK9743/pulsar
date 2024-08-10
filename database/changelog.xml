@@ -8,4 +8,5 @@
     <include file="client/client.xml"/>
     <include file="clinic/clinic.xml"/>
     <include file="product/product.xml"/>
+    <include file="user/user.xml"/>
 </databaseChangeLog>
