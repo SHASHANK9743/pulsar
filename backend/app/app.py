@@ -8,4 +8,4 @@ app.config.update(Config().__dict__)
 app.register_blueprint(api_router)
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=8532, )
+    app.run(host=Config().WIN_HOST, port=Config().PORT, )
