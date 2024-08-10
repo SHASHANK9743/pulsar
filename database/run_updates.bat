@@ -1,0 +1,1 @@
+liquibase update --changelog-file=changelog.xml --url="jdbc:postgresql://localhost:5432/pulsar?user=postgres&password=SnyderCut@214"

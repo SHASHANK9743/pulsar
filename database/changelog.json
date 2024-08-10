@@ -1,7 +1,0 @@
-{
-  "databaseChangeLog": {
-    "include": {
-      "file": "client/client.json"
-    }
-  }
-}
